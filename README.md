@@ -1,37 +1,32 @@
-# Mouse Cancer Study Data Analysis
+# Pymaceuticals, Inc. - Squamous Cell Carcinoma (SCC) Study Summary
 
-This repository contains the analysis of a mouse cancer study dataset. The dataset includes information about various drug regimens, mouse characteristics, and tumor volume measurements over time.
+## Overview:
+Pymaceuticals conducted a comprehensive animal study to assess potential treatments for squamous cell carcinoma (SCC), a prevalent form of skin cancer. The study involved 249 mice with SCC tumors, evaluating the efficacy of various drug regimens over a 45-day period. The primary objective was to compare the performance of Pymaceuticals' drug of interest, Capomulin, against other treatment regimens.
 
-## Overview
+## Key Findings:
 
-The data analysis covers a range of tasks, including data cleaning, statistical analysis, and visualization. Here's a brief summary of the key findings:
+### 1. Treatment Regimens:
+- Ten different drug regimens were administered to the mice, with a focus on evaluating the effectiveness of Capomulin.
 
-1. **Number of Mice:**
-   - There are 248 unique mouse IDs in the dataset.
+### 2. Study Duration:
+- The study spanned a 45-day period, during which tumor development was closely observed and measured.
 
-2. **Duplicate Mice:**
-   - Mouse ID 'g989' has duplicate entries at the same timepoints, indicating potential data entry errors.
+### 3. Capomulin Effectiveness:
+- Initial observations indicate promising results with Capomulin in controlling tumor development.
 
-3. **Cleaned DataFrame:**
-   - A clean DataFrame (`clean_df`) is created by dropping the duplicate mouse entries.
+### 4. Mouse Weight vs. Tumor Volume:
+- A positive correlation was noted between mouse weight and average tumor volume in the Capomulin regimen, suggesting a potential relationship.
 
-4. **Summary Statistics:**
-   - Summary statistics (mean, median, variance, standard deviation, and SEM) of the tumor volume for each drug regimen are calculated. The advanced method and aggregation method produce the same results.
+### 5. Outliers and Statistical Analysis:
+- Outliers were identified and addressed to ensure the reliability of statistical analyses.
+- Key statistical measures, including correlation coefficients, were calculated to quantify relationships between variables.
 
-5. **Bar Plots:**
-   - Bar plots using both Pandas and Pyplot show the total number of rows (Mouse ID/Timepoints) for each drug regimen. The Pyplot version includes rotated x-axis labels.
+## Recommendations:
+It is recommended to conduct more in-depth analyses, including assessments of survival rates, time series analysis, and additional statistical tests. These analyses will provide a more comprehensive understanding of treatment outcomes and aid in informed decision-making for future drug development and clinical trials.
 
-6. **Pie Plots:**
-   - Pie plots using both Pandas and Pyplot show the distribution of female versus male mice.
+## Technical Report:
+Detailed tables, figures, and statistical analyses, as requested by the executive team, have been prepared for inclusion in the technical report. These visualizations and summaries will offer a comprehensive overview of the study results.
 
-7. **Quartiles, Outliers, and Boxplots:**
-   - The final tumor volume for selected regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) is analyzed for potential outliers. Boxplots are generated to visualize the distribution of tumor volume for each treatment group.
+## Conclusion:
+The preliminary results showcase the potential efficacy of Capomulin in treating SCC. Further investigation, in collaboration with the medical team, is essential for drawing definitive conclusions and making informed decisions regarding the drug's development and its potential impact on combating squamous cell carcinoma.
 
-8. **Line Plot:**
-   - A line plot of tumor volume vs. time point is generated for a single mouse treated with Capomulin.
-
-9. **Scatter Plot:**
-   - A scatter plot of mouse weight vs. the average observed tumor volume for the entire Capomulin regimen is created.
-
-10. **Correlation and Regression:**
-    - The correlation coefficient between mouse weight and average observed tumor volume for the entire Capomulin regimen is calculated. A linear regression model is plotted to visualize the relationship between mouse weight and tumor volume.
