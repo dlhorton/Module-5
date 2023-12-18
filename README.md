@@ -7,7 +7,7 @@ This repository contains the analysis of a mouse cancer study dataset. The datas
 The data analysis covers a range of tasks, including data cleaning, statistical analysis, and visualization. Here's a brief summary of the key findings:
 
 1. **Number of Mice:**
-   - There are 249 unique mouse IDs in the dataset.
+   - There are 248 unique mouse IDs in the dataset.
 
 2. **Duplicate Mice:**
    - Mouse ID 'g989' has duplicate entries at the same timepoints, indicating potential data entry errors.
